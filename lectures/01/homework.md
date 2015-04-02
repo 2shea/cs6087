@@ -51,7 +51,7 @@ this code to compile and execute without warnings or errors:
 5. int
 6. #include <stdio.h>
 7. {
-8. #define MSG "All your base are belong to us."
+8. #define MSG "All your base are belong to us.\n"
 9. printf(msg);
 ```
 
