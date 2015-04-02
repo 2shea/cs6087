@@ -475,7 +475,7 @@ Suppose `x` and `y` are defined variables:
 
     #ifndef _HEADER_FILE_
     #define _HEADER_FILE_
-    /* declaratiosn
+    /* declarations */
     #endif
 
 ---
