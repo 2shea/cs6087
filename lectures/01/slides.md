@@ -289,7 +289,7 @@ Suppose `x` and `y` are defined variables:
 
  * Arithmetic operators like `+`, `-`, `*`, and `/` work as expected
  * `x + y`, `x - y`, `x * y`, `x / y`
- * Statements: `y = x m+ 3 * x / (y - 4);`
+ * Statements: `y = x + 3 * x / (y - 4);`
  * Numeric literals like `42` or `3.14` are valid in expressions
  * Statements in C terminate with a semicolon
  * Shorthand arithmetic and assignment operators exist:
