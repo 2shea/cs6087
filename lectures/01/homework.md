@@ -8,7 +8,7 @@ functions.
 
  1. What do curly braces (`{` and `}`) denote in C? Why does it make sense to
     use them to surround a function body?
- 2. Describe the difference between the literal values 7, "7", and '7'.
+ 2. Describe the difference between the literal values `7`, `"7"`, and `'7'`.
  3. Consider the statement `double ans = 10.0 + 2.0 / 3.0 - 2.0 * 2.0`.
     Rewrite this statement such that the value assigned to `ans` is `11.0`.
 
