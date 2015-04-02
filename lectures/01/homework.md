@@ -6,10 +6,10 @@ functions.
 
 ## Problem 1.1
 
- a. What do curly braces (`{` and `}`) denote in C? Why does it make sense to
+ 1. What do curly braces (`{` and `}`) denote in C? Why does it make sense to
     use them to surround a function body?
- b. Describe the difference between the literal values 7, "7", and '7'.
- c. Consider the statement `double ans = 10.0 + 2.0 / 3.0 - 2.0 * 2.0`.
+ 2. Describe the difference between the literal values 7, "7", and '7'.
+ 3. Consider the statement `double ans = 10.0 + 2.0 / 3.0 - 2.0 * 2.0`.
     Rewrite this statement such that the value assigned to `ans` is `11.0`.
 
 ## Problem 1.2
@@ -43,23 +43,24 @@ program that outputs the message, "All your base are belong to us." Write out
 the proper arrangement (specifying order of line numbers is sufficient) for
 this code to compile and execute without warnings or errors:
 
-   !c
-   return 0;
-   const char msg[] = MSG;
-   }
-   main(void)
-   int
-   #include <stdio.h>
-   {
-   #define MSG "All your base are belong to us."
-   printf(msg);
+```c
+1. return 0;
+2. const char msg[] = MSG;
+3. }
+4. main(void)
+5. int
+6. #include <stdio.h>
+7. {
+8. #define MSG "All your base are belong to us."
+9. printf(msg);
+```
 
 ## Problem 1.5
 
 For each of the following statements, explain why the statement is incorrect
 and write a correct version of the statement.
 
- a. `#include <stdio.h>;`
- b. `int function(void arg) { return arg - 1; }`
- c. `#define MESSAGE = "I think he's talking about the ping pong ball."`
+ 1. `#include <stdio.h>;`
+ 2. `int function(void arg) { return arg - 1; }`
+ 3. `#define MESSAGE = "I think he's talking about the ping pong ball."`
 
